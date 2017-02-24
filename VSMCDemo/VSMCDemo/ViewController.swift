@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MobileCenterCrashes
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func didTapCrashButton(_ sender: Any) {
+        let str: String! = nil
+        print(str) // クラッシュ！
+    }
 }
 

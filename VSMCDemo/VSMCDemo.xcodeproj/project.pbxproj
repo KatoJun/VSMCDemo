@@ -598,6 +598,7 @@
 			baseConfigurationReference = 660E3CDD0929E4D714129907 /* Pods-VSMCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = VSMCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.VSMCDemo;
@@ -696,6 +697,7 @@
 				CF0119001E5A9B6100C42515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0119011E5A9B6100C42515 /* Build configuration list for PBXNativeTarget "VSMCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +706,7 @@
 				CF0119031E5A9B6100C42515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0119041E5A9B6100C42515 /* Build configuration list for PBXNativeTarget "VSMCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +715,7 @@
 				CF0119061E5A9B6100C42515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
